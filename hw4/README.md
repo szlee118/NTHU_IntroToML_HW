@@ -62,20 +62,20 @@ probability is modified for both correctly classified or misclassified examples.
 ### AdaBoost_TextBook
 - The perceptron is different from our original one in hw3. There is only one example with 9 different attributes in each epoch. 
 - In the following picture, we can see that the final weight is modified slightly, since the perceptron algorithm change data by difference between examples, but our orignial dataset is too clustered.
-- ![](./Adaboost_textbook.png)<br>
+- ![](./Adaboost_textbook.PNG)<br>
 - The result of correction rate is 0.5/0.9, depending on the initial selection of data when subsampling. Since every selection the data is put back, if one class is chosen repeatedly, the master classifier could probabliy only classify one class correctly. 
 
 ### AdaBoost_Original
 - From the output final weights, we can see that they are modified more carefully by this algorithm.
 - Sometimes about 1/20 testcases I met it will output error rate, but we just dismiss this one
-- ![](./Adaboost_original.png)
+- ![](./Adaboost_original.PNG)
 - It does not need perceptron, so it saves time
 <br><br>
 
 ### Direct_Perceptron
 - In my implementation, the results comming out cannot converge, so I set the terminating result to epoch = 100
 - The error rate is always 0.5, meaning that it can only correctly classify half of the testing data(all are classified as setosa/versicolor)
-- ![](./direct_perceptron.png)
+- ![](./direct_perceptron.PNG)
 - This is because the data is not irregular, data of same class are in a cluster
 - ![](./weight_change.png)
 - when consecutive examples of a same class presented , the weight can hardly be modified, so every 45 examples can the weight be modified one time.
