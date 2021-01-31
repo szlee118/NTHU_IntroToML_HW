@@ -77,7 +77,7 @@ probability is modified for both correctly classified or misclassified examples.
 - The error rate is always 0.5, meaning that it can only correctly classify half of the testing data(all are classified as setosa/versicolor)
 - ![](./direct_perceptron.PNG)
 - This is because the data is not irregular, data of same class are in a cluster
-- ![](./weight_change.png)
+- ![](./weight_change.PNG)
 - when consecutive examples of a same class presented , the weight can hardly be modified, so every 45 examples can the weight be modified one time.
 - One better solution is to hash the data into random order.
 
