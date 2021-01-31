@@ -36,6 +36,6 @@
 - The first is the same as a training example in class: versicolor, so it is not misclassified
 - The other four data are randomly generated, we can see that the second/fourth data is classified differently with different value of k
 
-![](./t1.png) 
+![](./t1.PNG) 
 ### task2
-![](./t2.png) 
+![](./t2.PNG) 
