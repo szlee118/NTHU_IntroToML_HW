@@ -1,4 +1,4 @@
-# Computing assignment 2 Report
+# Computing assignment 1 Report
 #### 106062328 李思佑
 
 ## Code design
