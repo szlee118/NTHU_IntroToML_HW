@@ -9,7 +9,7 @@
 - parameter Eta is variable(learning rate) in task 1<br>
   parameter attr_num is variable N+5(added+original attributes) in task 2
 <br><br>
-![Screenshot](./perceptron.png)
+![ScreenShot](./perceptron.png)
 <br><br>
 
 - check_classifier
