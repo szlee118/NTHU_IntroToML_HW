@@ -7,27 +7,27 @@
 - Modify perceptron() in hw3, into 2 diffenrent versions
 - Utilize KNN() in hw2
 <br><br>
-![](./knn.png)
+![](./knn.PNG)
 <br><br>
 
 ### 2. AdaBoost_TextBook
 - readfile<br>
   examples and labels are seperately combined, and cocatenated into a whole structure--Training_Set/Testing_Set
 <br><br>
-![](./readfile.png)
+![](./readfile.PNG)
 <br><br>
 - set up variables<br>initialize weights to 0.2 as homework spec
 <br><br>
-![](./setup.png)
+![](./setup.PNG)
 <br><br>
 - main part<br>follow the psedu code of hangouts ch9 page25
 <br>create subset -> use subset to train -> modify prob ->...(circular)
 <br><br>
-![](./cal0.png)
+![](./cal0.PNG)
 <br><br>
 - master classifier<br> a specified perceptron algorithm for the master classifier, taking outputs of subclassifiers as attributes.
 <br><br>
-![](./perceptron_ada.png)
+![](./perceptron_ada.PNG)
 <br><br>
 
 ### 3. AdaBoost_Original
@@ -36,20 +36,20 @@
 - main<br>similar to textbook version, except the beta is updated differently, weight is updated.<br>
 probability is modified for both correctly classified or misclassified examples.
 <br>
-- ![](./betaweight.png)
+- ![](./betaweight.PNG)
 <br><br>
-- ![](./cal.png)
+- ![](./cal.PNG)
 <br><br>
 - master classifier<br> no perceptron, meaning the cost is very low -- only 1 + 9 example presentation 
 <br><br>
-![](./mas.png)
+![](./mas.PNG)
 <br><br>
 
 
 ### 4. Direct_Perceptron
 - perceptron is a simplified version that directly take the attributes of original training set.
 <br><br>
-![](./nana.png)
+![](./nana.PNG)
 <br><br>
 
 
