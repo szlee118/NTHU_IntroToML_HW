@@ -16,7 +16,7 @@
 - use the current classifier(weights) to predict the next given training data
 - compare c[i] with h[i], return wether they are the same or not
 <br><br>
-![](./check_classifier.png)
+![](/check_classifier.png)
 <br><br>
 
 ### 2. Data Structures, Read files
