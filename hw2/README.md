@@ -1,4 +1,4 @@
-# hw4 Computer Assignment Report
+# hw2 Computer Assignment Report
 #### 106062328 李思佑
 
 ## Code design
