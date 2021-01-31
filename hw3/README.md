@@ -9,7 +9,7 @@
 - The only parameter is rate
 - For each epoch, it calls Propagation() two times, in different mode.<br>1. training mode to update weights by back-propagation<br>2. checking mode only to execute forward-propagation and return mse to generate average mse for current epoch
 <br><br>
-![](./nn.png)
+![](./nn.PNG)
 <br><br>
 
 - main function -- Propagation()
@@ -18,22 +18,22 @@
 - Second part of the code is based on the mode passed in, the responsibility of neurons(delta[]) is calculated to be auxiliary of updating weights.
 - Since there're only two hidden layers, each level of propagation is delievered seperately. If more hidden layers
 <br><br>
-![](./propagation.png)
+![](./propagation.PNG)
 <br><br>
 
 - auxiliary functions -- sigmoid(), MSE()
 <br><br>
-![](./sm.png)
+![](./sm.PNG)
 <br><br>
 
 - initialize weights -- Random_Weights()
 <br><br>
-![](./rw.png)
+![](./rw.PNG)
 <br><br>
 
 - read files -- not general, specified for this homework
 <br><br>
-![](./rf.png)
+![](./rf.PNG)
 <br><br>
 
 2.Others
@@ -46,10 +46,10 @@
 ### task1
 - Although the absolute fraction of change is relatively low, the average mse is still high, which means the convergent result may still make wrong classifications. It might be a signal of local-minimum, since obtaining a classifier with both variables low might need larger # of epochs.
 - Here I present two most frequent results of the execution.
-- ![](./task1_0.png)
+- ![](./task1_0.PNG)
 <br><br>
 
-- ![](./task1_1.png)
+- ![](./task1_1.PNG)
 
 <br>
 
@@ -59,13 +59,13 @@
 
 <br>
 
-- ![](./task2.png)
+- ![](./task2.PNG)
 <br><br>
 
-- ![](./task2_0.png)
+- ![](./task2_0.PNG)
 <br><br>
 
-- ![](./task2_1.png)
+- ![](./task2_1.PNG)
 
 
  
